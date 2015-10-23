@@ -10,14 +10,5 @@ I did:
 1. `npm install formsy-material-ui`
 1. `meteor`
 
-Then I added modules/Formsy. Look like everything is OK, but in Chrome console:
-
-`Uncaught TypeError: Cannot read property 'firstChild' of undefined              ReactMount.js?4869:730
-Warning: owner-based and parent-based contexts differ (values: 'undefined' vs '[object Object]') for key (muiTheme) while mounting ScaleIn (see: http://fb.me/react-context-by-parent)        react.browserify.js:21884
-Warning: owner-based and parent-based contexts differ (values: 'undefined' vs '[object Object]') for key (muiTheme) while mounting ScaleIn (see: http://fb.me/react-context-by-parent)        react.browserify.js:21884
-
-Uncaught Error: Invariant Violation: addComponentAsRefTo(...): Only a ReactOwner can have refs. This usually means that you're trying to add a ref to a component that doesn't have an owner
-(that is, was not created inside of another component's 'render' method). Try rendering this component inside of a new top-level component which will hold the ref.                           react.browserify.js:20537
-
-Uncaught Error: Invariant Violation: removeComponentAsRefFrom(...): Only a ReactOwner can have refs. This usually means that you're trying to remove a ref to a component that doesn't
-have an owner (that is, was not created inside of another component's 'render' method). Try rendering this component inside of a new top-level component which will hold the ref.             react.browserify.js:20537`
+Then I added modules/Formsy. Look like everything is OK, but in Chrome 
+![alt tag](https://dl.dropboxusercontent.com/u/10969855/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202015-10-23%2012%3A01%3A46.png)
